@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0 10px;
+}
+
+body .container {
+  display: flex;
+  gap: 1rem;
+}
+
+body div div {
+  border: 1px solid #000;
+  height: 95vh;
+}
+
+body div div:first-child {
+  flex-basis: 25%;
+}
+
+body div div:last-child {
+  flex: 1;
+}

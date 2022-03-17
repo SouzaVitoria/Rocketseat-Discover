@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li {
+  padding: 0 .8rem;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+header nav li:last-child a {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #000;
+  color: #FFF;
+}
+
+header nav li:last-child a:hover {
+  opacity: 0.7;
+}
