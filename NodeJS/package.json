@@ -1,0 +1,12 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "events.js",
+  "scripts": {
+    "start": "node events.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
